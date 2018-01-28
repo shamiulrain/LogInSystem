@@ -1,5 +1,6 @@
 # Uncomment the next line to define a global platform for your project
 platform :ios, '9.0'
+swift_version = "3.2"
 
 target 'LogInSystem' do
   use_frameworks!
