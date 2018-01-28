@@ -23,14 +23,14 @@ s.homepage = "https://github.com/shamiulrain/LogInSystem"
 # 6 - Replace this URL with your own Git URL from "Quick Setup"
 s.source = { :git => "https://github.com/shamiulrain/LogInSystem.git", :tag => "#{s.version}"}
 s.source = { :git => "https://github.com/shamiulrain/LogInSystem.git", :branch => "master",
-:tag => s.version.to_s }
+:tag => "#{s.version}" }
 # For example,
 # s.source = { :git => "https://github.com/JRG-Developer/RWPickFlavor.git", :tag => "#{s.version}"}
 
 
 # 7
 s.framework = "UIKit"
-s.dependency 'Alamofire', '~> 4.6.0'
+#s.dependency 'Alamofire', '~> 4.6.0'
 #s.dependency 'SwiftyJSON', '~> 4.0.0'
 
 # 8

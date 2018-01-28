@@ -3,7 +3,9 @@ platform :ios, '9.0'
 
 target 'LogInSystem' do
   use_frameworks!
-  pod ‘Alamofire’, '~> 4.6.0'
-  pod ‘SwiftyJSON’, ‘~> 4.0.0’
+  pod ‘Alamofire’#, '~> 4.6.0'
+  pod ‘SwiftyJSON’#, ‘~> 4.0.0’
+  
+  
 end
 #post_install do |installer| installer.pods_project.build_configurations.each do |config| config.build_settings['PROVISIONING_PROFILE_SPECIFIER'] = '' end
