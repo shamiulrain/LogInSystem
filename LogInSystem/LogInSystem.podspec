@@ -37,5 +37,5 @@ s.framework = "UIKit"
 s.source_files = "LogInSystem/*"
 
 # 9
-s.resources = "LogInSystem/**/*.{png,jpeg,jpg,storyboard,xib}"
+s.resources = "LogInSystem/LogInSystem/*.{storyboard,xib}"
 end
