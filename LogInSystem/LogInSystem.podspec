@@ -9,7 +9,7 @@ s.summary = "LogInSystem lets a user to use media storage drive."
 s.requires_arc = true
 s.pod_target_xcconfig = { "SWIFT_VERSION" => "4.0" }
 # 2
-s.version = "0.1.0"
+s.version = "0.1"
 
 # 3
 s.license = { :type => "MIT", :file => "LICENSE" }
@@ -37,5 +37,5 @@ s.framework = "UIKit"
 s.source_files = "LogInSystem/*"
 
 # 9
-#s.resources = "MediaStorage/**/*.{png,jpeg,jpg,storyboard,xib}"
+s.resources = "LogInSystem/**/*.{png,jpeg,jpg,storyboard,xib}"
 end

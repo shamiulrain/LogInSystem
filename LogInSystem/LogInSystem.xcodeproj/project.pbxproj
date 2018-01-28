@@ -11,7 +11,6 @@
 		9E4D7603201DE633005E9BC8 /* LogInSystemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4D7602201DE633005E9BC8 /* LogInSystemTests.swift */; };
 		9E4D7605201DE633005E9BC8 /* LogInSystem.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E4D75F7201DE633005E9BC8 /* LogInSystem.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9E4D760F201DEBD9005E9BC8 /* UserInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4D760E201DEBD9005E9BC8 /* UserInformationViewController.swift */; };
-		9E4D7635201E5081005E9BC8 /* LogInSystem.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E4D7634201E5081005E9BC8 /* LogInSystem.storyboard */; };
 		E4FF882E9E43552AE79B2A8B /* Pods_LogInSystem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C2DA553BA676FE58189BA8D /* Pods_LogInSystem.framework */; };
 /* End PBXBuildFile section */
 
@@ -35,7 +34,6 @@
 		9E4D7602201DE633005E9BC8 /* LogInSystemTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInSystemTests.swift; sourceTree = "<group>"; };
 		9E4D7604201DE633005E9BC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9E4D760E201DEBD9005E9BC8 /* UserInformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInformationViewController.swift; sourceTree = "<group>"; };
-		9E4D7634201E5081005E9BC8 /* LogInSystem.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LogInSystem.storyboard; sourceTree = "<group>"; };
 		CBC88F9679B801A7A76055E1 /* Pods-LogInSystem.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LogInSystem.release.xcconfig"; path = "Pods/Target Support Files/Pods-LogInSystem/Pods-LogInSystem.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -93,7 +91,6 @@
 				9E4D75F7201DE633005E9BC8 /* LogInSystem.h */,
 				9E4D760E201DEBD9005E9BC8 /* UserInformationViewController.swift */,
 				9E4D75F8201DE633005E9BC8 /* Info.plist */,
-				9E4D7634201E5081005E9BC8 /* LogInSystem.storyboard */,
 			);
 			path = LogInSystem;
 			sourceTree = "<group>";
@@ -212,7 +209,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E4D7635201E5081005E9BC8 /* LogInSystem.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
