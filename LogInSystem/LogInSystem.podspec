@@ -3,13 +3,13 @@ Pod::Spec.new do |s|
 # 1
 s.platform = :ios
 
-s.ios.deployment_target = '8.0'
+s.ios.deployment_target = '9.0'
 s.name = "LogInSystem"
 s.summary = "LogInSystem lets a user to use media storage drive."
 s.requires_arc = true
-s.pod_target_xcconfig = { "SWIFT_VERSION" => "3.2" }
+s.pod_target_xcconfig = { "SWIFT_VERSION" => "4.0" }
 # 2
-s.version = "0.1"
+s.version = "0.1.0"
 
 # 3
 s.license = { :type => "MIT", :file => "LICENSE" }

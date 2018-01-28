@@ -1,6 +1,5 @@
 # Uncomment the next line to define a global platform for your project
 platform :ios, '9.0'
-swift_version = "3.2"
 
 target 'LogInSystem' do
   use_frameworks!
@@ -10,7 +9,7 @@ target 'LogInSystem' do
       installer.pods_project.targets.each do |target|
           if ['Alamofire'].include? target.name
               target.build_configurations.each do |config|
-                  config.build_settings['SWIFT_VERSION'] = '3.2'
+                  config.build_settings['SWIFT_VERSION'] = '4.0'
               end
           end
       end
